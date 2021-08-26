@@ -91,21 +91,4 @@ nav li {
 .jumbotron h2, h3, h4 {
     color: yellow;
 }
-.footer{
-  background-color: #26d0c9;
-  height: 90px;
-}
-.footer-logo {
-  font-size: 36px;
-  color: white;
-  float:left;
-  padding: 20px 40px; 
-}
-.footer-list {
-  float:left;
-}
-.footerr-list li {
-  color: white;
-  padding:33px 20px 33px 20px;
-  float: left;
-}
+
