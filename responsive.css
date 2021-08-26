@@ -3,11 +3,26 @@
   .jumbotron h1 {
     font-size: 24px;
   }
+
+  .jumbotron marquee {
+    width: 500px;
+  }
+
+  .beras {
+    width: 50%;
+  }
 }
 
 /* Smartphone */
 @media all and (max-width: 670px) {
+  .jumbotron marquee {
+    width: 300px;
+  }
   nav a {
     visibility: hidden;
+  }
+
+  .beras {
+    width: 100%;
   }
 }

@@ -36,7 +36,7 @@ a {
 }
 
 .main p {
-  opacity: 0.7;
+  font-weight: 600;
   margin-bottom: 3px;
 }
 
@@ -55,12 +55,13 @@ header {
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   position: sticky;
   top: 0;
   display: flex;
   justify-content: flex-end;
+  z-index: 10;
 }
 
 nav a {
@@ -88,6 +89,10 @@ nav li {
   color: white;
 }
 
+.jumbotron marquee {
+  width: 700px;
+}
+
 .jumbotron h1 {
   font-size: 150%;
 }
@@ -95,7 +100,7 @@ nav li {
 .jumbotron h2,
 h3,
 h4 {
-  color: yellow;
+  color: rgb(255, 0, 0);
 }
 
 .product-wrapper {
@@ -114,7 +119,7 @@ h4 {
 
 .heading h2 {
   font-weight: normal;
-  color: yellow;
+  color: rgb(255, 0, 0);
 }
 
 .beras {
@@ -124,6 +129,15 @@ h4 {
 
 .beras-icon {
   position: relative;
+}
+
+.beras-icon img {
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.beras-icon img:hover {
+  transform: scale(1.2);
 }
 
 .beras-icon p {
@@ -146,23 +160,29 @@ h4 {
 }
 
 footer {
+  margin-top: 30px;
   background-color: rgba(34, 49, 52, 0.9);
-  height: 120px;
+  height: 180px;
   padding: 40px;
   color: white;
   bottom: 0;
 }
+
 .footer-logo {
   font-size: 20px;
-  float: left;
+  display: flex;
+  justify-content: flex-start;
 }
-.footerlist {
-  float: left;
-  padding: 5px;
-  display: block;
+
+.footer-list {
 }
-.footerlist li {
+
+.footer-list li {
+  padding: 0 20px 15px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-list a {
   color: white;
-  padding: 33px 20px;
-  float: left;
 }
