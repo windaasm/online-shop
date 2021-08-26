@@ -1,156 +1,168 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url(https://media.istockphoto.com/photos/hakumai-picture-id1215148144?b=1&k=6&m=1215148144&s=170667a&w=0&h=dsXg0DbN-dEN6tUuyk7aTclZN0LXh1abJ2OCV6prtCk=);
-    background-size: cover;
-    margin: 0;
-    font-family: "Lucida Grande";
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1117px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1117px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .main {
-    padding-top: 180px;
-    padding-bottom: 100px;
-    color: black;
-    text-align: left;
+  background-image: url(https://media.istockphoto.com/photos/hakumai-picture-id1215148144?b=1&k=6&m=1215148144&s=170667a&w=0&h=dsXg0DbN-dEN6tUuyk7aTclZN0LXh1abJ2OCV6prtCk=);
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: black;
+  text-align: left;
 }
 
 .main h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 4px;
-    margin-bottom: 10px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
 }
 
 .main p {
-    opacity: 0.7;
-    margin-bottom: 3px;
+  opacity: 0.7;
+  margin-bottom: 3px;
 }
 
 header {
-    height: 8vh;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    color: white;
-    display: inline;
+  height: 8vh;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+  display: inline;
 }
 
 .fa {
-    width: 25px;
-    margin-top: 20px;
-    color: white;
+  width: 25px;
+  margin-top: 20px;
+  color: white;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    position: sticky;
-    top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav a {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    color: white;
+  font-size: 20px;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
 }
 
 .jumbotron h1 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
-.jumbotron h2, h3, h4 {
-    color: yellow;
+.jumbotron h2,
+h3,
+h4 {
+  color: yellow;
 }
 
-.lesson-wrapper {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
+.product-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color:black;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: black;
 }
 
 .heading h2 {
-    font-weight: normal;
-    color: yellow;
+  font-weight: normal;
+  color: yellow;
 }
 
 .beras {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .beras-icon {
-    position: relative;
+  position: relative;
 }
 
 .beras-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: black;
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: black;
 }
 
 .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: black;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
 }
 
-.footer {
-    background-color: rgba(34, 49, 52, 0.9);
-    height: 120px;
-    padding: 40px;
-    color: white;
+.clear {
+  clear: left;
+}
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 120px;
+  padding: 40px;
+  color: white;
+  bottom: 0;
 }
 .footer-logo {
-    font-size: 20px;
-    float: left;
+  font-size: 20px;
+  float: left;
 }
 .footerlist {
-    float: left;
-    padding: 5px;
-    display: inline;
+  float: left;
+  padding: 5px;
+  display: block;
 }
 .footerlist li {
-    color: white;
-    padding: 33px 20px;
-    float: left;
+  color: white;
+  padding: 33px 20px;
+  float: left;
 }

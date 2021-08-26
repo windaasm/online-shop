@@ -1,0 +1,13 @@
+/* Tablet */
+@media all and (max-width: 1000px) {
+  .jumbotron h1 {
+    font-size: 24px;
+  }
+}
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+  nav a {
+    visibility: hidden;
+  }
+}
