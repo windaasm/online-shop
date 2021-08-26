@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    background-image: url(https://media.istockphoto.com/photos/hakumai-picture-id1215148144?b=1&k=6&m=1215148144&s=170667a&w=0&h=dsXg0DbN-dEN6tUuyk7aTclZN0LXh1abJ2OCV6prtCk=);
+    background-size: cover;
     margin: 0;
     font-family: "Lucida Grande";
 }
@@ -8,7 +14,6 @@ a {
 }
 
 .container {
-    width: 100;
     max-width: 1117px;
     padding: 0 15px;
     margin: 0 auto;
@@ -17,8 +22,6 @@ a {
 .main {
     padding-top: 180px;
     padding-bottom: 100px;
-    background-image: url(https://media.istockphoto.com/photos/hakumai-picture-id1215148144?b=1&k=6&m=1215148144&s=170667a&w=0&h=dsXg0DbN-dEN6tUuyk7aTclZN0LXh1abJ2OCV6prtCk=);
-    background-size: cover;
     color: black;
     text-align: center;
 }
@@ -40,6 +43,7 @@ header {
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
     color: white;
+    display: inline;
 }
 
 .fa {
@@ -48,24 +52,43 @@ header {
     color: white;
 }
 
-.header-left {
-    float: left;
-    margin-top: 2px;
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    position: sticky;
+    top: 0;
 }
 
-.header-right {
-    float: right;
-    display: flex;
-    transition: all 0.5s;
-}
-
-.header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a {
-    line-height: 8vh;
-    padding: 0 25px;
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
     color: white;
-    display: block;
 }
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 150%;
+}
+
+.jumbotron h2, h3, h4 {
+    color: yellow;
+}
+
