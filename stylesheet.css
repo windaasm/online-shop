@@ -92,3 +92,15 @@ nav li {
     color: yellow;
 }
 
+footer-logo {
+    font-size: 20px;
+    float: left;
+}
+.footerlist {
+    float: left;
+}
+.footerlist li {
+    color: white;
+    padding: 33px 20px;
+    float: left;
+}
