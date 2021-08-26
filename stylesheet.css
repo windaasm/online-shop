@@ -105,6 +105,7 @@ nav li {
 .footerlist {
     float: left;
     padding: 5px;
+    display: inline;
 }
 .footerlist li {
     color: white;
